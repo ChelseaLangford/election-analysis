@@ -85,5 +85,5 @@ Once the loop was completed, the code then printed the candidate and county resu
 Based on the outcome of this script, it was determined that this code could be utilized with some modifications for any election. 
 #### Modifying for a National Election
 While the original code was written for a local election, the code could easily be modified for use during a national election. Rather than tracking county results, that variable could be replaced by the voter's state. Then, each instance of "county" variables within the code could be modified to "state" variables.
-### Modifying for Election Types With More Than One Winner
+#### Modifying for Election Types With More Than One Winner
 The original code determined the single winning candidate based on the majority of the overall vote. For elections in which multiple candidates win, like with State Representative races, the code could be ammended to show not a single winner but rather the winning candidate by district. The code which displayed the total votes per county could be updated to show the total votes per candidate per disctrict.
