@@ -82,7 +82,7 @@ With these variables set, I created a for loop to read each row in the .csv file
 Once the loop was completed, the code then printed the candidate and county results along with their total percentage of the overall vote. This information was then saved to a .txt file which was created to save the output of the Python script.
           
 ## Election Audit Summary
-Based on the outcome of this script, it was determined that this code could be utilized with some modifications for any election. 
+Based on the outcome of this script, it was determined that this code could be utilized with some modifications for any election. My proposal to the election commision would highlight the adapability of this code by examining two alternative election formats: a national election, as well as an election race with multiple potential winners.
 #### Modifying for a National Election
 While the original code was written for a local election, the code could easily be modified for use during a national election. Rather than tracking county results, that variable could be replaced by the voter's state. Then, each instance of "county" variables within the code could be modified to "state" variables.
 #### Modifying for Election Types With More Than One Winner
